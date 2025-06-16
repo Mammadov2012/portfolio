@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="header__nav">
+                    <img class="header__logo" src="./photos/logo.svg" alt="">
+                    <ul class="header__menu">
+                        <li><a class="header__link" href="#section1" class="header__link">Обо мне</a></li>
+                        <li><a class="header__link" href="#section2" class="header__link">Навыки</a></li>
+                        <li><a class="header__link" href="#section3" class="header__link">Услуги</a></li>
+                        <li><a class="header__link" href="#section4" class="header__link">Портфолио</a></li>
+                        <li><a class="header__link" href="#section5" class="header__link">Отзывы</a></li>
+                        <li><a class="header__link" href="#section6" class="header__link">Контакты</a></li>
+                    </ul>
+
+                    <button class="header__burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                </nav>
+        </header>
+
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">
+                            <span>Привет, я Иван Иванов frontend-разработчик </span>
+                        </h1>
+
+                        <a class="hero__scroll" href="#">
+                            Смотреть работы
+                            <img src="./photos/Vector.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about">
+                <div class="container">
+                    <h3 id="section1" class="title about__title">Обо мне</h3>
+
+                    <p class="p1">Приветствую всех на своём сайте! Меня зовут Иван, я из Киева. Занимаюсь
+                        фронтенд-разработкой
+                        более
+                        года. До разработки занимался нелюбимым делом, ходил на нелюбимую работу, не мог понять за что
+                        взяться,
+                        чтобы дело приносило удовольствие и деньги, пока не наткнулся на один интересный курс.</p>
+                    <p class="p2">С тех пор прошел огонь, воду и медные трубы. Учёба давалась по-разному: где-то легче,
+                        где-то
+                        сложнее. Каждодневная работа над навыками и усердие, с которым я подходил к обучению, уже через
+                        несколько
+                        месяцев принесли плоды - я взял первый заказ на фрилансе. С отзывами клиентов и примерами работ
+                        можно
+                        ознакомиться ниже.</p>
+                </div>
+
+            </section>
+
+            <section class="skills">
+                <div class="container">
+                    <h3 id="section2" class="title skills__title">Навыки</h3>
+
+                    <div class="skills__content">
+                        <img src="./photos/portrait 2.jpeg" alt="">
+
+                        <div class="skills__info">
+                            <div class="skill__box">
+                                <span class="skill__name">HTML</span>
+                                <div class="skill__line">
+                                    <span class="skill__blue" style="max-width: 90%;"></span>
+                                </div>
+                            </div>
+
+
+                            <div class="skill__box">
+                                <span class="skill__name">CSS</span>
+                                <div class="skill__line">
+                                    <span class="skill__blue" style="max-width: 75%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skill__box">
+                                <span class="skill__name">JS</span>
+                                <div class="skill__line">
+                                    <span class="skill__blue" style="max-width: 60%;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+
+            <section class="services">
+                <div class="container">
+                    <h3 id="section3" class="title services__title">Услуги</h3>
+                    <div class="services__items">
+                        <div class="services__card">
+                            <img class="services__img" src="./photos/Group.svg" alt="" width="60" height="60">
+                            <h3 class="services__heading">Вёрстка проектов</h3>
+                            <p class="services__text">Сделаю качественную вёрстку вашего проекта по предоставленному
+                                макету
+                                или
+                                примеру</p>
+                        </div>
+                        <div class="services__card">
+                            <img class="services__img" src="./photos/dev icon.svg" alt="" width="60" height="60">
+                            <h3 class="services__heading">Посадка на CMS</h3>
+                            <p class="services__text">Интегрирую ваш проект в одну из популярных CMS</p>
+                        </div>
+
+
+
+                        <div class="services__card">
+                            <img class="services__img" src="./photos/chat icon.svg" alt="" width="60" height="60">
+                            <h3 class="services__heading">Поддержка сайта</h3>
+                            <p class="services__text">Гарантирую поддержку вашего сайта на протяжениии 30 дней после
+                                сдача
+                                проекта
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="gallery">
+                <div class="container">
+                    <h3 id="section4" class="gallery__title title">Мои работы</h3>
+                    <div class="gallery__buttons">
+                        <button class="gallery__btn gallery__btn_active">Все работы </button>
+                        <button class="gallery__btn">Лендинги</button>
+                        <button class="gallery__btn">Корпоративные</button>
+                        <button class="gallery__btn">E-commerce</button>
+                    </div>
+                    <div class="gallery__items">
+                        <img src="./photos/gallery/img1.jpeg" alt="" class="gallery__img">
+                        <img src="./photos/gallery/img2.jpeg" alt="" class="gallery__img">
+                        <img src="./photos/gallery/img3.jpeg" alt="" class="gallery__img">
+                        <img src="./photos/gallery/img4.jpeg" alt="" class="gallery__img">
+                        <img src="./photos/gallery/img5.jpeg" alt="" class="gallery__img">
+                        <img src="./photos/gallery/img6.jpeg" alt="" class="gallery__img">
+                    </div>
+
+                    <div class="gallery__more-btn">Загрузить ещё</div>
+                </div>
+            </section>
+
+            <section class="feedback">
+                <div class="container">
+                    <h3 id="section5" class="feedback__title title">Отзывы клиентов</h3>
+                    <div class="feedback__content">
+                        <blockquote class="feedback__quote">
+                            <img class="feedback__author-img" src="./photos/photo.jpeg" alt="">
+                            <span class="feedback__author">Марк Цукерберг</span>
+                            <cite class="feedback__cite">
+                                Фантастика! Я всецело доволен
+                                работой этого специалиста.
+                                Быстро и качественно. Рекомендую!
+                            </cite>
+                        </blockquote>
+
+                        <div class="feedback__video">
+                            <video src="./video/istockphoto-1251629783-640_adpp_is.mp4"
+                                poster="./photos/video bg.jpeg"></video>
+                            <button class="feedback__btn">
+                                <svg class="feedback__icon" width="85.714279" height="100.000000"
+                                    viewBox="0 0 85.7143 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                                    <defs />
+                                    <path id="play" d="M0 0L85.71 50L0 100L0 0Z" fill-opacity="1.000000"
+                                        fill-rule="nonzero" />
+                                </svg>
+
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="stats">
+                <div class="container">
+                    <div class="stats__items">
+                        <div class="stats__card">
+                            <img src="./photos/bag.svg" alt="">
+                            <span id="section6" class="stats__desc">Выполненных работ</span>
+                            <span class="stats__number">56</span>
+                        </div>
+                        <div class="stats__card">
+                            <img src="./photos/clients.svg" alt="">
+                            <span class="stats__desc">Довольных клиентов</span>
+                            <span class="stats__number">23</span>
+                        </div>
+                        <div class="stats__card">
+                            <img src="./photos/coffee.svg" alt="">
+                            <span class="stats__desc">Выпито чашек кофе</span>
+                            <span class="stats__number">477</span>
+                        </div>
+                        <div class="stats__card">
+                            <img src="./photos/review.svg" alt="">
+                            <span class="stats__desc">Всего отзывов</span>
+                            <span class="stats__number">48</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="contacts">
+                <div class="container">
+
+                    <h3 class="contacts__title title">Контакты</h3>
+                    <div class="contacts__inner">
+                        <div class="contacts__info">
+                            <p class="contacts__info-text">Связаться со мной можно, воспользовавшись контактной формой
+                                или
+                                напрямую по номеру телефона, email, в соцсетях:</p>
+                            <div class="contacts__links">
+                                <a class="contacts__link" href="tel:+380501111111">+38 (050) 111 11 11</a>
+                                <a class="contacts__link"
+                                    href="mailto:frontend-monster@email.com">frontend-monster@email.com</a>
+                            </div>
+                            <div class="contacts__social">
+                                <a class="contacts__social-link" href="#">
+                                    <img src="./photos/instagram.svg" alt="">
+                                </a>
+                                <a class="contacts__social-link" href="#">
+                                    <img src="./photos/facebook (1) 1.svg" alt="">
+                                </a>
+                                <a class="contacts__social-link" href="#">
+                                    <img src="./photos/telegram.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <form class="contact__form">
+                            <div class="contacts__form-box">
+                                <label class="contacts__label">
+                                    <span>Ваше имя</span>
+                                    <input class="contacts__input" type="text" placeholder="Иван">
+                                </label>
+                                <label class="contacts__label">
+                                    <span>Номер телефона</span>
+                                    <input class="contacts__input" type="text" placeholder="+380501111111">
+                                </label>
+                            </div>
+                            <label class="contacts__label">
+                                <span>Ваще сообщение</span>
+                                <textarea class="contacts__textarea" placeholder="Текст вашего сообщения" name=""
+                                    id=""></textarea>
+                            </label>
+                            <button id="section6" class="contacts__btn" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+
+            </section> 
+<!-- 
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="./script/index.js"></script>
+</body>
+
+
+
+</html>
