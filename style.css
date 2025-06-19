@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    overflow-x: hidden;
 
     main {
         flex: 1 1 auto;
@@ -248,7 +249,7 @@ body {
     }
 }
 
-.p1 {}
+
 
 .p2 {
     padding-bottom: 30px;
@@ -378,7 +379,6 @@ body {
     width: 100%;
 }
 
-.services__img {}
 
 .services__heading {
 
@@ -643,6 +643,10 @@ body {
 .contacts__form-box {
     display: flex;
     gap: 30px;
+
+    @media(max-width: 479.98px) {
+        flex-direction: column;
+    }
 }
 
 .contacts__label {
@@ -685,9 +689,10 @@ body {
 .contacts__inner {
     display: flex;
     justify-content: space-between;
-    @media(max-width: 991.98px){
-         flex-direction: column; 
-         gap: 20px;
+
+    @media(max-width: 991.98px) {
+        flex-direction: column;
+        gap: 20px;
     }
 }
 
